@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Large data files
+heart_disease_health_indicators_BRFSS2015.csv
+
+# Data -- only X_train_final.csv is needed for SHAP
+data/X_test_*
+data/y_*
+data/X_val_*
+data/X_train_dedup.csv
+data/X_train_full.csv
+data/brfss_*.csv
+
+# Models -- only calibrated models are needed
+models/*_baseline.pkl
+models/*_final.pkl
+models/*_study.pkl
+
+# CatBoost training info
+catboost_info/
+
+# Generated outputs
+figures/
+results/
+reports/
+
+# Screenshots
+*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
